@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C258E7921EF51DE300414785 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C258E7911EF51DE300414785 /* AppDelegate.swift */; };
+		C258E7941EF51DE300414785 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C258E7931EF51DE300414785 /* ViewController.swift */; };
+		C258E7971EF51DE300414785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C258E7951EF51DE300414785 /* Main.storyboard */; };
+		C258E7991EF51DE300414785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C258E7981EF51DE300414785 /* Assets.xcassets */; };
+		C258E79C1EF51DE300414785 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C258E79A1EF51DE300414785 /* LaunchScreen.storyboard */; };
+		C258E7B21EF51F6C00414785 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = C258E7AC1EF51F6C00414785 /* Aspects.m */; };
+		C258E7B31EF51F6C00414785 /* FuncLog.plist in Resources */ = {isa = PBXBuildFile; fileRef = C258E7AD1EF51F6C00414785 /* FuncLog.plist */; };
+		C258E7B51EF51F6C00414785 /* NSDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = C258E7B11EF51F6C00414785 /* NSDateTime.m */; };
+		C258E7B71EF52C3800414785 /* BuryLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C258E7B61EF52C3800414785 /* BuryLog.swift */; };
+		C258E7B91EF53E8D00414785 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C258E7B81EF53E8D00414785 /* MyViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C258E78E1EF51DE300414785 /* maidianTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maidianTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C258E7911EF51DE300414785 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C258E7931EF51DE300414785 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C258E7961EF51DE300414785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C258E7981EF51DE300414785 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C258E79B1EF51DE300414785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C258E79D1EF51DE300414785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C258E7AA1EF51E9200414785 /* maidianTow-bride-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "maidianTow-bride-Header.h"; sourceTree = "<group>"; };
+		C258E7AB1EF51F6C00414785 /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		C258E7AC1EF51F6C00414785 /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		C258E7AD1EF51F6C00414785 /* FuncLog.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FuncLog.plist; sourceTree = "<group>"; };
+		C258E7B01EF51F6C00414785 /* NSDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateTime.h; sourceTree = "<group>"; };
+		C258E7B11EF51F6C00414785 /* NSDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateTime.m; sourceTree = "<group>"; };
+		C258E7B61EF52C3800414785 /* BuryLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuryLog.swift; sourceTree = "<group>"; };
+		C258E7B81EF53E8D00414785 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C258E78B1EF51DE300414785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C258E7851EF51DE300414785 = {
+			isa = PBXGroup;
+			children = (
+				C258E7901EF51DE300414785 /* maidianTwo */,
+				C258E78F1EF51DE300414785 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C258E78F1EF51DE300414785 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C258E78E1EF51DE300414785 /* maidianTwo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C258E7901EF51DE300414785 /* maidianTwo */ = {
+			isa = PBXGroup;
+			children = (
+				C258E7AB1EF51F6C00414785 /* Aspects.h */,
+				C258E7AC1EF51F6C00414785 /* Aspects.m */,
+				C258E7AD1EF51F6C00414785 /* FuncLog.plist */,
+				C258E7B01EF51F6C00414785 /* NSDateTime.h */,
+				C258E7B11EF51F6C00414785 /* NSDateTime.m */,
+				C258E7911EF51DE300414785 /* AppDelegate.swift */,
+				C258E7931EF51DE300414785 /* ViewController.swift */,
+				C258E7951EF51DE300414785 /* Main.storyboard */,
+				C258E7981EF51DE300414785 /* Assets.xcassets */,
+				C258E79A1EF51DE300414785 /* LaunchScreen.storyboard */,
+				C258E79D1EF51DE300414785 /* Info.plist */,
+				C258E7AA1EF51E9200414785 /* maidianTow-bride-Header.h */,
+				C258E7B61EF52C3800414785 /* BuryLog.swift */,
+				C258E7B81EF53E8D00414785 /* MyViewController.swift */,
+			);
+			path = maidianTwo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C258E78D1EF51DE300414785 /* maidianTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C258E7A01EF51DE300414785 /* Build configuration list for PBXNativeTarget "maidianTwo" */;
+			buildPhases = (
+				C258E78A1EF51DE300414785 /* Sources */,
+				C258E78B1EF51DE300414785 /* Frameworks */,
+				C258E78C1EF51DE300414785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = maidianTwo;
+			productName = maidianTwo;
+			productReference = C258E78E1EF51DE300414785 /* maidianTwo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C258E7861EF51DE300414785 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = edon;
+				TargetAttributes = {
+					C258E78D1EF51DE300414785 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2UPL3JMY5X;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C258E7891EF51DE300414785 /* Build configuration list for PBXProject "maidianTwo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C258E7851EF51DE300414785;
+			productRefGroup = C258E78F1EF51DE300414785 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C258E78D1EF51DE300414785 /* maidianTwo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C258E78C1EF51DE300414785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C258E79C1EF51DE300414785 /* LaunchScreen.storyboard in Resources */,
+				C258E7B31EF51F6C00414785 /* FuncLog.plist in Resources */,
+				C258E7991EF51DE300414785 /* Assets.xcassets in Resources */,
+				C258E7971EF51DE300414785 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C258E78A1EF51DE300414785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C258E7B71EF52C3800414785 /* BuryLog.swift in Sources */,
+				C258E7941EF51DE300414785 /* ViewController.swift in Sources */,
+				C258E7921EF51DE300414785 /* AppDelegate.swift in Sources */,
+				C258E7B51EF51F6C00414785 /* NSDateTime.m in Sources */,
+				C258E7B21EF51F6C00414785 /* Aspects.m in Sources */,
+				C258E7B91EF53E8D00414785 /* MyViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C258E7951EF51DE300414785 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C258E7961EF51DE300414785 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C258E79A1EF51DE300414785 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C258E79B1EF51DE300414785 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C258E79E1EF51DE300414785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C258E79F1EF51DE300414785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C258E7A11EF51DE300414785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 2UPL3JMY5X;
+				INFOPLIST_FILE = maidianTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ezy3d.cn.maidianTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "maidianTwo/maidianTow-bride-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C258E7A21EF51DE300414785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 2UPL3JMY5X;
+				INFOPLIST_FILE = maidianTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ezy3d.cn.maidianTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "maidianTwo/maidianTow-bride-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C258E7891EF51DE300414785 /* Build configuration list for PBXProject "maidianTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C258E79E1EF51DE300414785 /* Debug */,
+				C258E79F1EF51DE300414785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C258E7A01EF51DE300414785 /* Build configuration list for PBXNativeTarget "maidianTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C258E7A11EF51DE300414785 /* Debug */,
+				C258E7A21EF51DE300414785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C258E7861EF51DE300414785 /* Project object */;
+}
